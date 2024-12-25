@@ -1,0 +1,15 @@
+```scala
+class MyClass {
+  private val myVar: Int = 0
+
+  def getMyVar: Int = myVar
+
+  def myMethod: Int = {
+    getMyVar + 1
+  }
+
+  def myOtherMethod: Int = {
+    getMyVar + 2
+  }
+}
+```
